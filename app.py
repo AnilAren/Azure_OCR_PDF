@@ -56,7 +56,7 @@ def extract_images_from_pdf(pdf_file):
     return extracted_text
 
 # Example usage
-pdf_file = r"C:\Users\yough\Downloads\discussion.pdf"
+pdf_file = r"discussion.pdf"
 extracted_text = extract_images_from_pdf(pdf_file)
 for text in extracted_text:
     print(text)
